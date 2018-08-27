@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello World</title>
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/css/app.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/weui.min.css">
+  <link rel="stylesheet" href="assets/css/amazeui.min.css">
+</head>
+
+<body class="background">
+
+  <div style="width:100%; height:100%;position:fixed; top :0px;left:0px;background-color:#000;background: rgba(0, 0, 0, 0.15);text-align:center">
+
+    <header data-am-widget="header" class="am-header am-header-default" style="background:rgba(0, 0, 0, 0.15);">
+      <div class="am-header-left am-header-nav">
+        <a href="#user-link" class="close-btn" style="width: 49px;height: 49px;">
+
+          <i class="am-header-icon am-icon-bars"></i>
+        </a>
+        <a href="#cart-link" class="close-btn" style="width: 49px;height: 49px;">
+
+          <i class="am-header-icon am-icon-gear"></i>
+        </a>
+        <div class="am-dropdown" data-am-dropdown>
+          <a href="#cart-link" class="dropdown am-dropdown-toggle" style="width: 49px; height: 49px;" data-am-dropdown-toggle>
+            <i class="am-header-icon am-icon-plus" style="width: 49px; height: 100%;"></i>
+          </a>
+          <ul class="am-dropdown-content">
+            <li class="am-dropdown-header ">添加</li>
+            <li>
+              <a class="am-icon-rss">RSS源</a>
+            </li>
+            <li>
+              <a class="am-icon-qq">QQ</a>
+            </li>
+            <li>
+              <a class="am-icon-wechat">微信</a>
+            </li>
+            <li>
+              <a class="am-icon-question">知乎</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="am-header-title" style="-webkit-app-region: drag;-webkit-user-select: none;">
+        Hello World
+      </p>
+      <div class="am-header-right am-header-nav">
+        <div class="control-btn">
+          <a class="close-btn am-icon-close" id="clo-btn" style="width: 49px;position:fixed;right:0;vertical-align: middle;margin-left: auto; margin-right: auto;"></a>
+          <a class="close-btn am-icon-minus" id="min-btn" style="width: 49px;position:fixed;right:49px;vertical-align: middle;margin-left: auto; margin-right: auto;"></a>
+        </div>
+      </div>
+    </header>
+    <div style="text-align:center;">
+      <p>
+        <font size="36" face="Verdana" color=white>
+          This is a paragraph.
+        </font>
+      </p>
+      <a class="ticker-btn" id="tbtn">button</a>
+    </div>
+  </div>
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script>
+    if (typeof module === 'object') {
+      window.jQuery = window.$ = module.exports;
+    };
+  </script>
+  <script>
+    // You can also require other files to run in this process
+    require('./assets/js/renderer.js')
+  </script>
+  <script src="assets/js/amazeui.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>

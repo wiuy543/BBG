@@ -1,0 +1,59 @@
+/* index.html */
+
+.ticker-btn {
+    -webkit-user-select: none;
+    transition: color 0.25s, background 0.25s, transform 0.25s;
+    -webkit-transition: color 0.25s, background 0.25s, -webkit-transform 0.25s;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 6px 20px !important;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 6px;
+    /*box-shadow: 1px 1px 1px #888888;*/
+}
+.ticker-btn:hover {
+    background: white;
+    color: black;
+}
+.control-btn{
+    z-index:999;
+    height: 49px;
+    position:fixed;
+    right:0;
+    top:0;
+}
+.close-btn{
+    
+    transition: color 0.25s, background 0.25s, transform 0.25s;
+    -webkit-transition: color 0.25s, background 0.25s, -webkit-transform 0.25s;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+}
+.close-btn:hover {
+    background: rgba(255, 255, 255, 0.397);
+    color: rgba(255, 255, 255, 0.877);
+}
+.dropdown{
+    transition: color 0.25s, background 0.25s, transform 0.25s;
+    -webkit-transition: color 0.25s, background 0.25s, -webkit-transform 0.25s;
+    color: white;
+}
+.dropdown:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+.dropdown:visited{
+    color: white;
+}
+.background {
+    -webkit-user-select: none;
+    background: black;
+    background-image: url(../image/background2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}

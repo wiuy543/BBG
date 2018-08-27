@@ -1,0 +1,22 @@
+{
+  "name": "bbg",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "assets/js/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/wiuy543/BBG",
+  "keywords": [
+    "Electron",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  },
+  "dependencies": {
+    "weui": "^1.1.3"
+  }
+}
